@@ -1,0 +1,2 @@
+# wordinal
+terminal based wordle 
