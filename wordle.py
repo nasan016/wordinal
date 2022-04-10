@@ -104,7 +104,9 @@ while num_guess != 0:
     letters_used.sort()
 
     num_guess -= 1
-
+    
+    if num_guess == 0:
+      break
 
     system('cls')
 
