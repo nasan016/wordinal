@@ -43,8 +43,9 @@ def game():
                 guess_squares.append(prev_guess_squares)
             number_of_guesses -= 1
         else:
+            guess = ''
             print('INVALID WORD')
-            cont = input()
+            cont = input('Press "Enter" to continue.')
 
         clearScreen()
         for x in get_letters(guess, word):
@@ -126,7 +127,7 @@ def end_screen():
     """
     Thank you for playing!
     Wordinal (Wordle Clone)
-    Created By: nasan016
+    Created By: Nathaniel Macapinlac
     """
     )
 #------------------------------------------------------------------
